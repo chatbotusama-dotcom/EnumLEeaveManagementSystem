@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "leave-management-system-client-side-solution",
+    "id": "4fd4846d-b527-4939-b90c-0931356f6792",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "leave-management-system description"
+      },
+      "longDescription": {
+        "default": "leave-management-system description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "leave-management-system Feature",
+        "description": "The feature that activates elements of the leave-management-system solution.",
+        "id": "b1db7f3a-62dd-4dae-a521-c57d25b96cb1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/leave-management-system.sppkg"
+  }
+}
